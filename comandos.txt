@@ -1,0 +1,17 @@
+PASOS
+------------------
+1. Crear una base de datos con el nombre: sd
+2. En la ruta \tp_mec\servicios_mec_tp\servidor-springboot\src\main\resources
+el archivo application.properties cambiar el apartado de ---- spring.datasource.password=fpuna ----
+por la contraseña del postgresql
+3. Ejecutar el SQL que está dentro de la carpeta "Basecita"
+------------------
+////////// LEVANTAR EL PROYECTO ///////////
+# Dentro de la carpeta servidor-springboot
+
+./mvnw spring-boot:run 
+
+////////// CLIENTE PYTHON ///////////
+# Dentro de la carpeta cliente-python
+
+python clientePersonas.py
